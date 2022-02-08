@@ -1,3 +1,11 @@
+import { Home } from "./pages/Home";
+import { GlobalStyle } from "./styles/GlobalStyles";
+
 export function App() {
-  return <div>Hello World!</div>;
+  return (
+    <>
+      <Home />
+      <GlobalStyle />
+    </>
+  );
 }
